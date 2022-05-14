@@ -1,0 +1,64 @@
+#rectangle1{
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin: auto;
+    width : 600px;
+    height: 500px;
+    
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    background: white;
+    z-index: 1;
+}
+
+#bgg{
+    align-self: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    z-index: -1;
+}
+
+#login{
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-120%);
+    font-family: "Helvetica";
+    font-size: 14px;
+    margin-top: 50px;
+    z-index: 1;
+    
+}
+h4{
+    position: relative;
+    font-family: "Helvetica";
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    z-index: 2;
+    color: black;
+    
+}
+
+h2{
+    color: white;
+    font-family: "Helvetica";
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    margin-top: -300px;
+
+}
+
+#topbar{
+    position: absolute;
+    top: 10px;
+    left: 1080px
+}

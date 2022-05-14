@@ -1,0 +1,16 @@
+#loginbutton{
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+#logoutbutton{
+    margin: 0;
+    position: absolute;
+    -ms-transform: translateX(240%);
+    transform: translateX(240%);
+}
+#logoutmessage{
+    position: relative;
+    left: 70%
+}

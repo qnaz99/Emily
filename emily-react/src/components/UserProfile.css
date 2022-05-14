@@ -1,0 +1,84 @@
+label{
+    font-size: 14px;
+}
+
+
+
+#rectangle{
+    position: absolute;
+    top : 50% ;
+    left: 35%;
+    width : 600px;
+    height: 500px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+
+#nameField{
+    
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    z-index: 1;
+    padding: 2px;
+}
+
+#contact{
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 56%;
+    left: 57%;
+    z-index: 1;
+}
+
+#healthCard{
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 66%;
+    left: 37%;
+    z-index: 1;
+}
+
+#allergies{
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 66%;
+    left: 57%;
+    z-index: 1;
+}
+
+#medication{
+    font-family: "Helvetica";
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 76%;
+    left: 37%;
+    z-index: 1;
+
+}
+#submit{
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    top: 110%;
+    left: 67%;
+    background-color: blue;
+    border-radius: 20px;
+    width: 75px;
+}
+
+#sidebarr{
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,256 @@
+.sidebar{
+    /* in the app page, the side bar will take 30% of the page while the chat will take 70% */
+    flex : 0.3 ;
+display:flex;
+    position: fixed;
+    width: 275px;
+    height: 600px;
+    left: -120px;
+opacity: 0%;
+    top: 50px;
+    transition: 0.3s;
+    background: #f6f7fa;
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    /* background-color: var(--slack-color); */
+    /* note the border top is very thin, just a slight shade different of the purple slack color variable */
+    /* border-top : 1px solid #c2c6ce;  */
+    /* sets max width of sidebar */
+  
+    /* text color in sidebar */
+    color : rgb(32, 31, 34) ; 
+    /* overflow is extremely important. when there are too much content that overflows, and you dont enable
+    the overflows content to be scrolled and seen, then the content becomes hidden to the user. in the case 
+    of sidebar, sidebar functionality has many items being added and deleted in its content(such as channels) so adding overflow 
+    scroll y is required.
+    
+    */
+    
+    }
+
+    .sidebar:hover{
+
+        left:0;
+        opacity: 98%;
+        
+    }
+
+
+    .sidebar_top{
+        align-items : center ;
+        font-size : 25px ;
+        text-align:center;
+        display:flex;
+        color:rgba(99, 99, 99, 0.986);
+        padding-left : 2px ;
+padding-top:10px;
+        /* when you hover over the container , you can click it  */
+        cursor : pointer ; 
+        position: absolute;
+        left: 35px;
+        right:30px;
+font-size: 20px;
+    }
+
+.sidebar_content>h2{
+
+    left:-100;
+font-size: 12px;
+
+
+}
+.sidebar_content:hover{
+
+    left:0;
+
+    opacity: 90%;
+
+}
+.dashboard{
+ display:flex;
+    position:fixed;
+    width: 205px;
+    height: 55px;
+    left: 41.5px;
+    top: 140px;
+    align-items: center;
+    /* Black&amp;White/White */
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 14px rgb(0, 132, 255);
+    border-radius: 8px;
+
+    font-family: Helvetica;
+font-size: 12px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+    .pack1{
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 200px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .pack2{
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 260px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+    .pack3{
+
+
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 320px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    }
+
+    .pack4{
+
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 400px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .pack5{
+
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 460px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .pack6{
+
+        display:flex;
+        position:fixed;
+        width: 205px;
+        height: 55px;
+        left: 41.5px;
+        top: 520px;
+        align-items: center;
+        /* Black&amp;White/White */
+        
+        background: #FFFFFF;
+        box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    
+        font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+    .sidebar_content{
+        /* flex makes container in same level height */
+            /* centering is important as it centers all the elements in container */
+            align-items : center ;
+            font-size : 12px ;
+            display:flex;
+            color:rgba(99, 99, 99, 0.986);
+            padding-left : 2px ;
+            /* when you hover over the container , you can click it  */
+            cursor : pointer ; 
+            position: absolute;
+width: 72px;
+height: 18px;
+left: 65px;
+top: 209px;
+        }
+        
+     
+        
+        /* formats the comment box icon makes it smaller */
+        .sidebar__icon {
+          color:rgb(20, 155, 218);
+            }
+        /* styles the # youtube part with no icons passed */
+      
+    
+        /* styles all the H3 tags in sidebarOption */
+        
+        
